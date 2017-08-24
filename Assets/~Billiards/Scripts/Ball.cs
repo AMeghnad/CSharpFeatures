@@ -4,10 +4,9 @@ using UnityEngine;
 
 namespace Billiards
 {
-    [RequireComponent(typeof(Rigidbody))]
     public class Ball : MonoBehaviour
     {
-        public float gravity = -9.81f;
+        public float stopSpeed = 0.2f;
 
         private Rigidbody rigid;
 
@@ -18,9 +17,31 @@ namespace Billiards
         }
 
         // Update is called once per frame
-        void Update()
+        void FixedUpdate()
         {
-            rigid.velocity = rigid.velocity.normalized + Vector3.back * gravity;
+            Vector3 vel = rigid.velocity;
+
+            // Check if velocity is going up
+            if(vel.y > 0)
+            {
+                // Cap velocity
+                vel.y = 0;
+            }
+
+            // If the velocity's magnitude is less than the stop speed
+            if(vel.magnitude < stopSpeed)
+            {
+                // Cancel out velocity
+                vel = Vector3.zero;
+            }
+
+            rigid.velocity = vel;   
+
+        }
+
+        public void Hit(Vector3 dir, float impactForce)
+        {
+            rigid.AddForce(dir * impactForce, ForceMode.Impulse);
         }
     }
 }
