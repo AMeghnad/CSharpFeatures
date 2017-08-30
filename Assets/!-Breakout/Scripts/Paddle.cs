@@ -34,9 +34,9 @@ namespace Breakout
         void CheckInput()
         {
             if (Input.GetKeyDown(KeyCode.Space))
-            {
-                Fire();
-            }
+            {               
+                Fire();                                                              
+            }            
         }
 
         void Movement()

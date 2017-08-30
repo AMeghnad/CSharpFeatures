@@ -8,7 +8,7 @@ namespace Breakout
     {
         public float speed = 5f; // speed at which the ball travels
 
-        private Vector3 velocity; // velocity = direction x speed
+        public Vector3 velocity; // velocity = direction x speed
 
         // send the ball flying in a given direction
         public void Fire(Vector3 direction)
@@ -28,7 +28,7 @@ namespace Breakout
             velocity = reflect.normalized * velocity.magnitude;
             if (gameObject.tag == "Block")
             {
-                 
+               Destroy(gameObject);
             }
         }
      
