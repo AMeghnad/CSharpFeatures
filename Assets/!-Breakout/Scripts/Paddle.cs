@@ -14,11 +14,13 @@ namespace Breakout
             new Vector2(-.5f, 0.5f),
             new Vector2(0.5f, 0.5f)
         };
+        public bool isStart;
 
         // Use this for initialization
         void Start()
         {
             currentBall = GetComponentInChildren<Ball>();
+            isStart = true;
         }
 
         public void Fire()
@@ -29,13 +31,17 @@ namespace Breakout
             Vector3 randomDir = directions[Random.Range(0, directions.Length)];
             // Fire off ball in randomDir
             currentBall.Fire(randomDir);
+            isStart = false;
         }
 
         void CheckInput()
         {
             if (Input.GetKeyDown(KeyCode.Space))
-            {               
-                Fire();                                                              
+            {
+                if (isStart == true)
+                {
+                    Fire();
+                }                                                                                            
             }            
         }
 

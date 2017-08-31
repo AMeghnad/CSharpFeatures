@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Collision
+namespace Collisions
 {
     public class PlayerShip : MonoBehaviour
     {
