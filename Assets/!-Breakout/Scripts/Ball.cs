@@ -7,8 +7,14 @@ namespace Breakout
     public class Ball : MonoBehaviour
     {
         public float speed = 5f; // speed at which the ball travels
-
         public Vector3 velocity; // velocity = direction x speed
+        public int scoreValue;
+        public ScoreManager scoreManager;
+
+        void Start()
+        {
+            scoreManager = GetComponent<ScoreManager>();
+        }
 
         // send the ball flying in a given direction
         public void Fire(Vector3 direction)
@@ -29,7 +35,9 @@ namespace Breakout
             if (other.gameObject.CompareTag("Block"))
             {
                Destroy(other.gameObject);
+               scoreManager.AddScore(scoreValue);
             }
+            
         }
      
         // Update is called once per frame

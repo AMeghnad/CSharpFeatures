@@ -23,14 +23,18 @@ namespace Minesweeper2D
         // Update is called once per frame
         void Update()
         {
-
+            if (Input.GetMouseButtonUp(0))
+            {
+                Ray2D revealed = Camera.main.ScreenPointToRay();
+                RaycastHit2D hit;
+            }
         }
 
         Tile SpawnTile(Vector3 pos)
         {
             // Clone tile prefab
             GameObject clone = Instantiate(tilePrefab);
-            clone.transform.position = pos; // Position tile
+            clone.transform.position = new Vector3(spacing / 2, spacing / 2, 0) + pos; // Position tile
             Tile currentTile = clone.GetComponent<Tile>(); // Get Tile component
             return currentTile; // Return it
         }
@@ -43,7 +47,7 @@ namespace Minesweeper2D
             // Loop through the entire list
             for (int x = 0; x < width; x++)
             {
-                for (int y = 0; y< height; y++)
+                for (int y = 0; y < height; y++)
                 {
                     // Store half size for later use
                     Vector2 halfSize = new Vector2(width / 2, height / 2);
@@ -63,6 +67,32 @@ namespace Minesweeper2D
 
                 }
             }
+        }
+
+        public int GetAdjacentMineCountAt(Tile t)
+        {
+            int count = 0;
+            // Loop through for all elements and have each axis go between -1 to 1
+            for (int x = -1; x <= 1; x++)
+            {                                
+                for (int y = -1; y <= 1; y++)
+                {
+                    // Calculate desired coordinates from ones attained
+                    int desiredX = t.x + x;
+                    int desiredY = t.y + y;
+                    // IF desiredX and desiredY are within range of tiles array width and height
+                    if (desiredX < height && desiredY < width)
+                    {
+                        // IF the element at index is a mine
+                        if (tiles[x, y].isMine)
+                        {
+                            // Increment count by 1
+                            count++;
+                        }                       
+                    }                                    
+                }                
+            }
+            return count;
         }
     }
 }
