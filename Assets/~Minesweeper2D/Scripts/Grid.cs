@@ -25,7 +25,6 @@ namespace Minesweeper2D
         {
             if (Input.GetMouseButtonUp(0))
             {
-                Ray2D revealed = Camera.main.ScreenPointToRay();
                 RaycastHit2D hit;
             }
         }
@@ -74,7 +73,7 @@ namespace Minesweeper2D
             int count = 0;
             // Loop through for all elements and have each axis go between -1 to 1
             for (int x = -1; x <= 1; x++)
-            {                                
+            {
                 for (int y = -1; y <= 1; y++)
                 {
                     // Calculate desired coordinates from ones attained
@@ -88,9 +87,9 @@ namespace Minesweeper2D
                         {
                             // Increment count by 1
                             count++;
-                        }                       
-                    }                                    
-                }                
+                        }
+                    }
+                }
             }
             return count;
         }
