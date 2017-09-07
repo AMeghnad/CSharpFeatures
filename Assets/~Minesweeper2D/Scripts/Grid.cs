@@ -37,7 +37,7 @@ namespace Minesweeper2D
                     {
                         int adjacentMines = GetAdjacentMineCountAt(t);
                         t.Reveal(adjacentMines);
-                    }  
+                    }
                 }
             }
 
@@ -95,13 +95,16 @@ namespace Minesweeper2D
                     int desiredX = t.x + x;
                     int desiredY = t.y + y;
 
+                    // IF desiredX and desiredY is within range of the tiles array length
                     if (desiredX < width && desiredX >= 0)
                     {
                         if (desiredY < height && desiredY >= 0)
                         {
                             Tile tile = tiles[desiredX, desiredY];
+                            // If the tile is a mine
                             if (tile.isMine)
                             {
+                                // Increase count by 1
                                 count++;
                             }
                         }
