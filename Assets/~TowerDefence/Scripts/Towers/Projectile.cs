@@ -2,15 +2,49 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Projectile : MonoBehaviour {
+namespace TowerDefence
+{
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    public class Projectile : MonoBehaviour
+    {
+        public float damage = 50f; // Damage dealth to whatever gets hit
+        public float speed = 50f;  // Speed the projectile travels
+        public Vector3 direction;  // Direction the projectile travels
+
+        // Use this for initialization
+        void Start()
+        {
+
+        }
+
+        // Update is called once per frame
+        void Update()
+        {
+            // LET velocity = direction.normalised x speed            
+            Vector3 velocity = direction.normalized * speed;
+            // SET projectile's position += velocity x deltaTime
+            transform.position += velocity * Time.deltaTime;
+        }
+
+        void OnTriggerEnter(Collider col)
+        {
+            // LET e = col's enemy opponent
+            Enemy e = GetComponent<Enemy>();
+            // IF e != null
+            if (e != null)
+            {
+                // CALL e.DealDamage(damage)
+                e.DealDamage(damage);
+                // Destroy gameObject
+                Destroy(gameObject);
+            }
+
+            // IF col's name == "Ground"
+            if(e.name == "Ground")
+            {
+                Destroy(gameObject);
+            }
+                // Destroy the projectile
+        }
+    }
 }
