@@ -21,12 +21,6 @@ namespace TowerDefence
             InvokeRepeating("Spawn", 0, spawnRate);
         }
 
-        // Update is called once per frame
-        void Update()
-        {
-           
-        }
-
         void OnDrawGizmos()
         {
             Gizmos.color = Color.red;

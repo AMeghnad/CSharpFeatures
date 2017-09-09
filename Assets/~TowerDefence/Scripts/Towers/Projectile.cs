@@ -29,7 +29,7 @@ namespace TowerDefence
         void OnTriggerEnter(Collider col)
         {
             // LET e = col's enemy opponent
-            Enemy e = GetComponent<Enemy>();
+            Enemy e = col.GetComponent<Enemy>();
             // IF e != null
             if (e != null)
             {
@@ -40,7 +40,7 @@ namespace TowerDefence
             }
 
             // IF col's name == "Ground"
-            if(e.name == "Ground")
+            if(col.name == "Ground")
             {
                 Destroy(gameObject);
             }
