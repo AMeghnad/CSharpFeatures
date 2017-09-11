@@ -8,18 +8,6 @@ namespace TowerDefence
     {
         public float health = 100f; // Enemies' health
 
-        // Use this for initialization
-        void Start()
-        {
-
-        }
-
-        // Update is called once per frame
-        void Update()
-        {
-
-        }
-
         public void DealDamage(float damage)
         {
             // SET health -= damage
@@ -30,7 +18,6 @@ namespace TowerDefence
                 // Destroy the enemy
                 Destroy(gameObject);
             }
-
         }
     }
 }

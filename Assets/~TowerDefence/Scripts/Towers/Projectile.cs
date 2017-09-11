@@ -40,11 +40,11 @@ namespace TowerDefence
             }
 
             // IF col's name == "Ground"
-            if(col.name == "Ground")
+            if (col.name == "Ground")
             {
+                // Destroy the projectile
                 Destroy(gameObject);
             }
-                // Destroy the projectile
         }
     }
 }

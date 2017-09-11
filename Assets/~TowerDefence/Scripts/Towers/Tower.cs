@@ -21,7 +21,76 @@ namespace TowerDefence
         // Update is called once per frame
         void Update()
         {
+            // SET attackTimer = attackTimer + deltaTime
+            attackTimer += Time.deltaTime;
+            // IF attackTimer >= attackRate
+            if (attackTimer >= attackRate)
+            {
+                // CALL Attack()
+                Attack();
+                // SET attackTimer = 0
+                attackTimer = 0;
+            }
+        }
 
+        void OnTriggerEnter(Collider col)
+        {
+            // LET e = col's enemy component
+            Enemy e = col.GetComponent<Enemy>();
+            // If e != null
+            if (e != null)
+            {
+                // Add e to enemies list
+                enemies.Add(e);
+            }
+        }
+
+        void OnTriggerExit(Collider col)
+        {
+            // Let e = col's enemy component
+            Enemy e = col.GetComponent<Enemy>();
+            // If e != null
+            if (e != null)
+            {
+                // Remove e from enemies list
+                enemies.Remove(e);
+            }
+        }
+
+        Enemy GetClosestEnemy()
+        {
+            // Let closest = null
+            Enemy closest = null;
+            // LET minDistance = float.MaxValue
+            float minDistance = float.MaxValue;
+            // FOREACH enemy in enemies
+            foreach (Enemy e in enemies)
+            {
+                // LET distance = the distance between transform's position and enemy's position
+                float distance = Vector3.Distance(transform.position, e.transform.position);
+                // IF distance < minDistance
+                if (distance < minDistance)
+                {
+                    //SET minDistance = distance
+                    minDistance = distance;
+                    // SET closest = enemy
+                    closest = e;
+                }
+            }
+            // RETURN closest
+            return closest;
+        }
+
+        void Attack()
+        {
+            // Let closest to GetClosesEnemy()
+            Enemy closest = GetClosestEnemy();
+            // IF closest != null
+            if (closest != null)
+            {
+                // CALL cannon.Fire and pass closest as argument
+                cannon.Fire(closest);
+            }
         }
     }
 }
