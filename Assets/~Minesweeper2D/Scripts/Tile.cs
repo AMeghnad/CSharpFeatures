@@ -62,12 +62,12 @@ namespace Minesweeper2D
             isFlagged = !isFlagged;
             if (isFlagged)
             {
-                // set rend.sprite to flag sprite
+                // set rend.sprite to flagSprite
                 rend.sprite = flagSprite;
             }
             else
             {
-                // set rend.sprite to default tile (emptySprites[0])
+                // set rend.sprite to defaultSprite
                 rend.sprite = defaultSprite;
             }
 

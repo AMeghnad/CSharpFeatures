@@ -54,7 +54,7 @@ namespace Minesweeper2D
                 }
             }
 
-            // Use flag on GetMouseButtonDown(RIGHT_MOUSE)
+            // Use flag on GetMouseButtonDown((int)MouseButton.RIGHT_MOUSE)
             if (Input.GetMouseButtonDown((int)MouseButton.RIGHT_MOUSE))
             {
                 Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
