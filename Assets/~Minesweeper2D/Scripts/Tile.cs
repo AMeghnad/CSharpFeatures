@@ -15,8 +15,11 @@ namespace Minesweeper2D
         [Header("References")]
         public Sprite[] emptySprites; // List of empty sprites ie, empty, 1, 2, 3, 4 etc.
         public Sprite[] mineSprites; // The mine sprites
+        public Sprite defaultSprite;
+        public Sprite flagSprite;
 
         private SpriteRenderer rend; // Reference to sprite renderer
+        private bool isFlagged = false;
 
         void Awake()
         {
@@ -28,7 +31,7 @@ namespace Minesweeper2D
         void Start()
         {
             // Randomly decide if it's a mine or not
-            isMine = Random.value < .05f;
+            isMine = Random.value < .1f;
         }
 
         // Update is called once per frame
@@ -52,6 +55,23 @@ namespace Minesweeper2D
                 // Sets sprite to appropriate texture based on adjacent mines
                 rend.sprite = emptySprites[adjacentMines];
             }
+        }
+
+        public void ToggleFlag()
+        {
+            isFlagged = !isFlagged;
+            if (isFlagged)
+            {
+                // set rend.sprite to flag sprite
+                rend.sprite = flagSprite;
+            }
+            else
+            {
+                // set rend.sprite to default tile (emptySprites[0])
+                rend.sprite = defaultSprite;
+            }
+
+            
         }
     }
 }
