@@ -27,7 +27,7 @@ namespace SteeringBehaviour
                 // desiredForce = desiredForce normalized x weighting
                 desiredForce = desiredForce.normalized * weighting;
                 // force = desiredForce - owner.velocity
-                //force = desiredForce - owner
+                force = desiredForce - owner.velocity;
             }
 
             // Return force
