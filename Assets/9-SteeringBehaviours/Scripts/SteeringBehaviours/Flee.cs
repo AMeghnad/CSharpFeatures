@@ -1,11 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
 using GGL;
 
 namespace SteeringBehaviour
 {
-    public class Seek : SteeringBehaviour
+    public class Flee : SteeringBehaviour
     {
         public Transform target;
         public float stoppingDistance = 1f;
@@ -22,7 +23,7 @@ namespace SteeringBehaviour
             }
 
             // LET desiredForce = target position - transform position
-            Vector3 desiredForce = target.position - transform.position;
+            Vector3 desiredForce = transform.position - target.position;
             // IF desiredForce magnitude > stoppingDistance
             if (desiredForce.magnitude > stoppingDistance)
             {
