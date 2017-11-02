@@ -1,0 +1,1021 @@
+fileFormatVersion: 2
+guid: af9adaec2b9ecfd4bbb2efd147ffdd53
+timeCreated: 1509398643
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Custom Edited - Paper Mario Customs - Mario Paper Mario Style_0
+    21300002: Custom Edited - Paper Mario Customs - Mario Paper Mario Style_1
+    21300004: Custom Edited - Paper Mario Customs - Mario Paper Mario Style_2
+    21300006: Custom Edited - Paper Mario Customs - Mario Paper Mario Style_3
+    21300008: Custom Edited - Paper Mario Customs - Mario Paper Mario Style_4
+    21300010: Custom Edited - Paper Mario Customs - Mario Paper Mario Style_5
+    21300012: Custom Edited - Paper Mario Customs - Mario Paper Mario Style_6
+    21300014: Custom Edited - Paper Mario Customs - Mario Paper Mario Style_7
+    21300016: Custom Edited - Paper Mario Customs - Mario Paper Mario Style_8
+    21300018: Custom Edited - Paper Mario Customs - Mario Paper Mario Style_9
+    21300020: Custom Edited - Paper Mario Customs - Mario Paper Mario Style_10
+    21300022: Custom Edited - Paper Mario Customs - Mario Paper Mario Style_11
+    21300024: Custom Edited - Paper Mario Customs - Mario Paper Mario Style_12
+    21300026: Custom Edited - Paper Mario Customs - Mario Paper Mario Style_13
+    21300028: Custom Edited - Paper Mario Customs - Mario Paper Mario Style_14
+    21300030: Custom Edited - Paper Mario Customs - Mario Paper Mario Style_15
+    21300032: Custom Edited - Paper Mario Customs - Mario Paper Mario Style_16
+    21300034: Custom Edited - Paper Mario Customs - Mario Paper Mario Style_17
+    21300036: Custom Edited - Paper Mario Customs - Mario Paper Mario Style_18
+    21300038: Custom Edited - Paper Mario Customs - Mario Paper Mario Style_19
+    21300040: Custom Edited - Paper Mario Customs - Mario Paper Mario Style_20
+    21300042: Custom Edited - Paper Mario Customs - Mario Paper Mario Style_21
+    21300044: Custom Edited - Paper Mario Customs - Mario Paper Mario Style_22
+    21300046: Custom Edited - Paper Mario Customs - Mario Paper Mario Style_23
+    21300048: Custom Edited - Paper Mario Customs - Mario Paper Mario Style_24
+    21300050: Custom Edited - Paper Mario Customs - Mario Paper Mario Style_25
+    21300052: Custom Edited - Paper Mario Customs - Mario Paper Mario Style_26
+    21300054: Custom Edited - Paper Mario Customs - Mario Paper Mario Style_27
+    21300056: Custom Edited - Paper Mario Customs - Mario Paper Mario Style_28
+    21300058: Custom Edited - Paper Mario Customs - Mario Paper Mario Style_29
+    21300060: Custom Edited - Paper Mario Customs - Mario Paper Mario Style_30
+    21300062: Custom Edited - Paper Mario Customs - Mario Paper Mario Style_31
+    21300064: Custom Edited - Paper Mario Customs - Mario Paper Mario Style_32
+    21300066: Custom Edited - Paper Mario Customs - Mario Paper Mario Style_33
+    21300068: Custom Edited - Paper Mario Customs - Mario Paper Mario Style_34
+    21300070: Custom Edited - Paper Mario Customs - Mario Paper Mario Style_35
+    21300072: Custom Edited - Paper Mario Customs - Mario Paper Mario Style_36
+    21300074: Custom Edited - Paper Mario Customs - Mario Paper Mario Style_37
+    21300076: Custom Edited - Paper Mario Customs - Mario Paper Mario Style_38
+    21300078: Custom Edited - Paper Mario Customs - Mario Paper Mario Style_39
+    21300080: Custom Edited - Paper Mario Customs - Mario Paper Mario Style_40
+    21300082: Custom Edited - Paper Mario Customs - Mario Paper Mario Style_41
+    21300084: Custom Edited - Paper Mario Customs - Mario Paper Mario Style_42
+    21300086: Custom Edited - Paper Mario Customs - Mario Paper Mario Style_43
+    21300088: Custom Edited - Paper Mario Customs - Mario Paper Mario Style_44
+    21300090: Custom Edited - Paper Mario Customs - Mario Paper Mario Style_45
+    21300092: Custom Edited - Paper Mario Customs - Mario Paper Mario Style_46
+    21300094: Custom Edited - Paper Mario Customs - Mario Paper Mario Style_47
+    21300096: Custom Edited - Paper Mario Customs - Mario Paper Mario Style_48
+    21300098: Custom Edited - Paper Mario Customs - Mario Paper Mario Style_49
+    21300100: Custom Edited - Paper Mario Customs - Mario Paper Mario Style_50
+    21300102: Custom Edited - Paper Mario Customs - Mario Paper Mario Style_51
+    21300104: Custom Edited - Paper Mario Customs - Mario Paper Mario Style_52
+    21300106: Custom Edited - Paper Mario Customs - Mario Paper Mario Style_53
+    21300108: Custom Edited - Paper Mario Customs - Mario Paper Mario Style_54
+    21300110: Custom Edited - Paper Mario Customs - Mario Paper Mario Style_55
+    21300112: Custom Edited - Paper Mario Customs - Mario Paper Mario Style_56
+    21300114: Custom Edited - Paper Mario Customs - Mario Paper Mario Style_57
+    21300116: Custom Edited - Paper Mario Customs - Mario Paper Mario Style_58
+    21300118: Custom Edited - Paper Mario Customs - Mario Paper Mario Style_59
+    21300120: Custom Edited - Paper Mario Customs - Mario Paper Mario Style_60
+    21300122: Custom Edited - Paper Mario Customs - Mario Paper Mario Style_61
+    21300124: Custom Edited - Paper Mario Customs - Mario Paper Mario Style_62
+    21300126: Paper_Mario_0
+    21300128: Paper_Mario_1
+    21300130: Paper_Mario_2
+    21300132: Paper_Mario_3
+    21300134: Paper_Mario_4
+    21300136: Paper_Mario_5
+    21300138: Paper_Mario_6
+    21300140: Paper_Mario_7
+    21300142: Paper_Mario_8
+    21300144: Paper_Mario_9
+    21300146: Paper_Mario_10
+    21300148: Paper_Mario_11
+    21300150: Paper_Mario_12
+    21300152: Paper_Mario_13
+    21300154: Paper_Mario_14
+    21300156: Paper_Mario_15
+    21300158: Paper_Mario_16
+    21300160: Paper_Mario_17
+    21300162: Paper_Mario_18
+    21300164: Paper_Mario_19
+    21300166: Paper_Mario_20
+    21300168: Paper_Mario_21
+    21300170: Paper_Mario_22
+    21300172: Paper_Mario_23
+    21300174: Paper_Mario_24
+    21300176: Paper_Mario_25
+    21300178: Paper_Mario_26
+    21300180: Paper_Mario_27
+    21300182: Paper_Mario_28
+    21300184: Paper_Mario_29
+    21300186: Paper_Mario_30
+    21300188: Paper_Mario_31
+    21300190: Paper_Mario_32
+    21300192: Paper_Mario_33
+    21300194: Paper_Mario_34
+    21300196: Paper_Mario_35
+    21300198: Paper_Mario_36
+    21300200: Paper_Mario_37
+    21300202: Paper_Mario_38
+    21300204: Paper_Mario_39
+    21300206: Paper_Mario_40
+    21300208: Paper_Mario_41
+    21300210: Paper_Mario_42
+    21300212: Paper_Mario_43
+    21300214: Paper_Mario_44
+    21300216: Paper_Mario_45
+    21300218: Paper_Mario_46
+    21300220: Paper_Mario_47
+    21300222: Paper_Mario_48
+    21300224: Paper_Mario_49
+    21300226: Paper_Mario_50
+    21300228: Paper_Mario_51
+    21300230: Paper_Mario_52
+    21300232: Paper_Mario_53
+    21300234: Paper_Mario_54
+    21300236: Paper_Mario_55
+    21300238: Paper_Mario_56
+    21300240: Paper_Mario_57
+    21300242: Paper_Mario_58
+    21300244: Paper_Mario_59
+    21300246: Paper_Mario_60
+    21300248: Paper_Mario_61
+    21300250: Paper_Mario_62
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Paper_Mario_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1345
+        width: 202
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Paper_Mario_1
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 1345
+        width: 211
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Paper_Mario_2
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 1345
+        width: 192
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Paper_Mario_3
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 1351
+        width: 212
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Paper_Mario_4
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 1346
+        width: 212
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Paper_Mario_5
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 1356
+        width: 229
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Paper_Mario_6
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 1345
+        width: 233
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Paper_Mario_7
+      rect:
+        serializedVersion: 2
+        x: 1785
+        y: 1339
+        width: 262
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Paper_Mario_8
+      rect:
+        serializedVersion: 2
+        x: 2078
+        y: 1339
+        width: 249
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Paper_Mario_9
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1043
+        width: 237
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Paper_Mario_10
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1018
+        width: 277
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Paper_Mario_11
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 1001
+        width: 253
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Paper_Mario_12
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 1001
+        width: 260
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Paper_Mario_13
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 1010
+        width: 204
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Paper_Mario_14
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 1015
+        width: 200
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Paper_Mario_15
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 1029
+        width: 205
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Paper_Mario_16
+      rect:
+        serializedVersion: 2
+        x: 1865
+        y: 1009
+        width: 211
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Paper_Mario_17
+      rect:
+        serializedVersion: 2
+        x: 2110
+        y: 1009
+        width: 212
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Paper_Mario_18
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 686
+        width: 187
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Paper_Mario_19
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 681
+        width: 262
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Paper_Mario_20
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 681
+        width: 254
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Paper_Mario_21
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 672
+        width: 188
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Paper_Mario_22
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 672
+        width: 188
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Paper_Mario_23
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 671
+        width: 207
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Paper_Mario_24
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 671
+        width: 205
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Paper_Mario_25
+      rect:
+        serializedVersion: 2
+        x: 1894
+        y: 672
+        width: 200
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Paper_Mario_26
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 672
+        width: 187
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Paper_Mario_27
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 324
+        width: 265
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Paper_Mario_28
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 325
+        width: 258
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Paper_Mario_29
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 326
+        width: 257
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Paper_Mario_30
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 324
+        width: 197
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Paper_Mario_31
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 324
+        width: 197
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Paper_Mario_32
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 324
+        width: 202
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Paper_Mario_33
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 316
+        width: 247
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Paper_Mario_34
+      rect:
+        serializedVersion: 2
+        x: 2075
+        y: 482
+        width: 62
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Paper_Mario_35
+      rect:
+        serializedVersion: 2
+        x: 2154
+        y: 518
+        width: 202
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Paper_Mario_36
+      rect:
+        serializedVersion: 2
+        x: 1939
+        y: 477
+        width: 119
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Paper_Mario_37
+      rect:
+        serializedVersion: 2
+        x: 2159
+        y: 381
+        width: 117
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Paper_Mario_38
+      rect:
+        serializedVersion: 2
+        x: 2057
+        y: 391
+        width: 75
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Paper_Mario_39
+      rect:
+        serializedVersion: 2
+        x: 1924
+        y: 256
+        width: 69
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Paper_Mario_40
+      rect:
+        serializedVersion: 2
+        x: 2014
+        y: 243
+        width: 142
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Paper_Mario_41
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 258
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Paper_Mario_42
+      rect:
+        serializedVersion: 2
+        x: 1724
+        y: 172
+        width: 47
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Paper_Mario_43
+      rect:
+        serializedVersion: 2
+        x: 1829
+        y: 221
+        width: 54
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Paper_Mario_44
+      rect:
+        serializedVersion: 2
+        x: 1907
+        y: 220
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Paper_Mario_45
+      rect:
+        serializedVersion: 2
+        x: 1933
+        y: 218
+        width: 26
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Paper_Mario_46
+      rect:
+        serializedVersion: 2
+        x: 1983
+        y: 215
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Paper_Mario_47
+      rect:
+        serializedVersion: 2
+        x: 2012
+        y: 211
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Paper_Mario_48
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 163
+        width: 43
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Paper_Mario_49
+      rect:
+        serializedVersion: 2
+        x: 2272
+        y: 194
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Paper_Mario_50
+      rect:
+        serializedVersion: 2
+        x: 1803
+        y: 121
+        width: 101
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Paper_Mario_51
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 190
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Paper_Mario_52
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 186
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Paper_Mario_53
+      rect:
+        serializedVersion: 2
+        x: 1923
+        y: 184
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Paper_Mario_54
+      rect:
+        serializedVersion: 2
+        x: 1948
+        y: 180
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Paper_Mario_55
+      rect:
+        serializedVersion: 2
+        x: 2015
+        y: 96
+        width: 112
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Paper_Mario_56
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 24
+        width: 85
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Paper_Mario_57
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 27
+        width: 70
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Paper_Mario_58
+      rect:
+        serializedVersion: 2
+        x: 1817
+        y: 62
+        width: 74
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Paper_Mario_59
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 16
+        width: 92
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Paper_Mario_60
+      rect:
+        serializedVersion: 2
+        x: 2039
+        y: 11
+        width: 93
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Paper_Mario_61
+      rect:
+        serializedVersion: 2
+        x: 2142
+        y: 48
+        width: 99
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Paper_Mario_62
+      rect:
+        serializedVersion: 2
+        x: 2254
+        y: 60
+        width: 77
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
