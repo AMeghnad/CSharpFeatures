@@ -23,6 +23,7 @@ namespace PaperMarioClone
         private Vector3 gravity;
         private Vector3 movement;
         private bool jump = false;
+        private bool jumpInstant = false; // << ADDED THIS 
 
         // Use this for initialization
         void Start()
@@ -34,55 +35,48 @@ namespace PaperMarioClone
         void Update()
         {
             // Is the controller running?
-            if (isRunning)            
-                movement *= runSpeed;            
-            else            
-                movement *= walkSpeed;            
+            if (isRunning)
+                movement *= runSpeed;
+            else
+                movement *= walkSpeed;
 
             // Is the controller grounded?
-            if(isGrounded)
+            if (!isGrounded)
             {
-                // Cancel out gravity only if you're grounded
+                gravity += Physics.gravity * Time.deltaTime;
+            }
+            else
+            {
                 gravity = Vector3.zero;
-                // Is the controller jumping?
                 if (jump)
                 {
-                    // Make character jump
                     gravity.y = jumpHeight;
                     jump = false;
                 }
             }
-            else
-            {
-                // Applying gravity
-                gravity += Physics.gravity * Time.deltaTime;
-            }
 
-            // Apply movement
+            if (jumpInstant)
+            {
+                gravity.y = jumpHeight;
+                jumpInstant = false;
+            }
             movement += gravity;
             controller.Move(movement * Time.deltaTime);
+
         }
         // Controller Jump
-        public void Jump()
+        public void Jump(bool instant = false)
         {
-            if (isGrounded)
-            {
-                //Jump!
-                jump = true;
-            }
+            if (instant)
+                jumpInstant = true;
+            else
+                jump = true;            
         }
 
         public void Move(float inputH, float inputV)
         {
-            // is moveInJump enabled? OR
-            // is moveInJump disabled AND controller isGrounded?
-            if(moveInJump || (moveInJump == false && isGrounded))
-            {
-                inputDir = new Vector3(inputH, 0, inputV);
-            }
-
-            // Move player based on inputDir
-            movement = inputDir;
+            Vector3 inputDir = new Vector3(inputH, 0, inputV);
+            movement = transform.TransformDirection(inputDir);
         }
-    }    
+    }
 }

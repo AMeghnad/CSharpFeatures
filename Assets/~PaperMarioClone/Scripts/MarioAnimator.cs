@@ -27,7 +27,7 @@ namespace PaperMarioClone
             {
                 anim.SetBool("IsFlipped", true);
             }
-            else
+            else if(inputDir.x < 0)
             {
                 anim.SetBool("IsFlipped", false);
             }
