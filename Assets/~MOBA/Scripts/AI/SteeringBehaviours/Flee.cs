@@ -27,7 +27,6 @@ namespace MOBA
                 desiredVelocity = direction.normalized * weighting;
                 force = desiredVelocity - owner.velocity;
             }
-
             return force;
         }
     }

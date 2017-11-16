@@ -61,7 +61,7 @@ namespace MOBA
             // Update nav's speed to velocity
             nav.speed = velocity.magnitude;
             // Is there a velocity
-            if (velocity.magnitude > 0)
+            if (velocity.magnitude > 0 && nav.updatePosition)
             {
                 // Is the velocity over maxSpeed?
                 if (velocity.magnitude > maxSpeed)
