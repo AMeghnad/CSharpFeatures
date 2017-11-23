@@ -40,6 +40,12 @@ namespace MOBA
                 if (s != null)
                     s.target = target; // Assign target to seek component on agent
 
+                // PathFollowing
+                PathFollowing p = agent.GetComponent<PathFollowing>();
+                // Is PathFollowing attached to agent?
+                if (p != null)
+                    p.target = target; // Assign target to PathFollowing comonenet anafe
+
             }
         }
 
